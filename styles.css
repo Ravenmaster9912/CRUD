@@ -1,0 +1,66 @@
+#xd{
+    background-color: black;
+    list-style: none;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.datos{
+    display: flex;
+    text-align: center;
+}
+
+.datos div {
+    width: 30%;
+    
+}
+
+li{
+    cursor: pointer;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    float: left;
+}
+
+
+
+img{
+    
+    size-adjust: inherit;
+    
+}
+
+ul button{
+    float: right;
+    padding: 16px;
+    text-decoration: none;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+ul button:hover{
+    color: black;
+    background-color: white;
+}
+
+li:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    font-family: arial, sans-serif;
+    /*padding: 5px;*/
+}
