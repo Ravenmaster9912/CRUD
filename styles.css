@@ -43,11 +43,13 @@ ul button{
     align-items: center;
     background-color: black;
     color: white;
+    border-style: none;
 }
 
 ul button:hover{
     color: black;
     background-color: white;
+    border-style: none;
 }
 
 li:hover{
@@ -63,4 +65,10 @@ body{
 *{
     font-family: arial, sans-serif;
     /*padding: 5px;*/
+    text-decoration: none;
+    color:white;
+}
+
+div{
+    text-align: center;
 }
