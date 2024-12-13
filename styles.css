@@ -50,6 +50,7 @@ ul button:hover{
     color: black;
     background-color: white;
     border-style: none;
+    cursor: pointer;
 }
 
 li:hover{
@@ -58,17 +59,34 @@ li:hover{
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: aliceblue;
 
 }
 
 *{
     font-family: arial, sans-serif;
     /*padding: 5px;*/
-    text-decoration: none;
-    color:white;
+    
 }
 
 div{
     text-align: center;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    position-area: initial;
 }
